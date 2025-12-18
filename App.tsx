@@ -6,6 +6,7 @@ import About from './components/About';
 import Tokenomics from './components/Tokenomics';
 import Roadmap from './components/Roadmap';
 import Footer from './components/Footer';
+import ChatBot from './components/ChatBot';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Roadmap />
       </main>
 
+      <ChatBot />
       <Footer />
     </div>
   );
